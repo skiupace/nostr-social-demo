@@ -38,7 +38,8 @@ npm run build
 ## References
 
 - Nostr Protocol - https://github.com/nostr-protocol/nostr
-- NIP-19 - https://github.com/nostr-protocol/nips/blob/master/19.md
+- NIP-1 - https://github.com/nostr-protocol/nips/blob/master/1.md
+- NIP-10 - https://github.com/nostr-protocol/nips/blob/master/10.md
 
 ## License
 

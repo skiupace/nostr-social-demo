@@ -1,12 +1,10 @@
 export function FeedHeader() {
   return (
     <>
-      {/* Feed Header */}
       <div className="border-b border-slate-700 bg-black/80 backdrop-blur px-4 py-3">
         <h2 className="text-xl font-bold text-white">الرئيسية</h2>
       </div>
 
-      {/* Compose Area - Placeholder */}
       <div className="border-b border-slate-700 p-4">
         <div className="flex gap-4 flex-row">
           <div className="w-12 h-12 rounded-full bg-linear-to-br from-blue-400 to-purple-500 shrink-0"></div>

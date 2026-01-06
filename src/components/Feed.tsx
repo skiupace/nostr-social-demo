@@ -98,8 +98,6 @@ const Feed: FC<FeedProps> = ({
 
   return (
     <div className="flex flex-col h-full bg-black">
-      <FeedHeader />
-
       {/* Error Banner */}
       {error && (
         <div className="border-b border-red-700 bg-red-900/20 p-4">
@@ -112,14 +110,15 @@ const Feed: FC<FeedProps> = ({
         </div>
       )}
 
-      <FeedRefresh
-        newPostsCount={newEventsQueue.length}
-        onRefresh={handleRefresh}
-        isLoading={isRefreshing}
-      />
-
       {/* Feed Container */}
       <div ref={feedContainerRef} className="flex-1 overflow-y-auto">
+        <FeedHeader />
+        <FeedRefresh
+          newPostsCount={newEventsQueue.length}
+          onRefresh={handleRefresh}
+          isLoading={isRefreshing}
+        />
+
         {/* Posts */}
         <div className="divide-y divide-slate-700">
           {displayedEvents.length === 0 ? (

@@ -48,4 +48,6 @@ This project is open source and available under the MIT License.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Built with Love for the Nostr ecosystem.
+---
+
+### Built with ❤️ for the Nostr ecosystem and community.
